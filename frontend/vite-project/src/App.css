@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.navbar{
+  background:white;
+  width: 100%;
+  height: 83px;
+  position: absolute;
+  left: 0rem;
+  top: 0;
+  position: fixed;
+  z-index: 23;
+}
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: 7rem;
+  width: 200px;
+}
+
+.magnifier{
+  top: 2rem;
+  position: absolute;
+  left: 17rem;
+  width: 3rem;
+  animation: anim 2s infinite ;
+}
+@keyframes anim{
+  20%{
+  transform: translate(10px,10px);
+  }
+  50%{
+    transform: translate(10px,20px);
+  }
+  70%{
+    transform: translate(-20px,0px);
+  }
+  100%{
+    transform: translate(0px,0px);
+  }
+}
+

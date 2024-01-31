@@ -1,0 +1,43 @@
+.resultouter{
+    margin: 10rem 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.analysisheading{
+    display: flex;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+
+}
+#results{
+    display: flex;
+    justify-content: space-between;
+    scroll-margin: 100px;
+}
+.highlighted-text{
+    width: 44vw;
+    background-color: white;
+    height: 70vh;
+    border-radius: 16px;
+    border: 1px solid grey;
+    padding: 30px;
+    box-sizing: border-box;
+   overflow-y: auto;
+}
+.predictions{
+    width: 38vw;
+    background: #2b2b2b;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0;
+    color:white;
+}
+.circularbar-outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:4rem 0 ;
+}

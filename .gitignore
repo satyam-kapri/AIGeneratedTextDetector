@@ -1,0 +1,5 @@
+/frontend/vite-project/node_modules
+main.py
+requirement.txt
+ensemble_model.joblib
+tfidf_vectorizer.joblib
