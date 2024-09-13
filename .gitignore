@@ -3,3 +3,4 @@ main.py
 requirement.txt
 ensemble_model.joblib
 tfidf_vectorizer.joblib
+aidetectionvenv/
